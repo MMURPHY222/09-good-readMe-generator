@@ -24,11 +24,40 @@ const questions = [
         message: "What is your project's name?",
         name: "title",
     },
+
+    {
+        type: "input",
+        message: "Please write a short description of your project",
+        name: "description",
+    },
+
+    {
+        type: "list",
+        message: "What kind of license should your project have",
+        name: "license",
+        choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"],
+    },
 ];
 
 // TODO: Create a function to write README file
 const writeToFile = (answers) =>
-    `## ${answers.title}`;
+        `## ${answers.title}
+## Description
+    ${answers.description}
+## Table of Contents
+## Installation
+## Usage
+## License
+## Contributing
+## Tests
+## Questions
+
+    Here is a link to my GitHub profile 
+        https://github.com/${answers.gitHub}
+
+    If you have an questions feel free to send me an email at 
+        ${answers.email}
+     `;
 
 
 // TODO: Create a function to initialize app
