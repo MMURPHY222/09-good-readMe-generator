@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/MMURPHY222/09-good-readMe-generator#readme",
   "dependencies": {
-    "inquirer": "^8.1.1"
+    "inquirer": "^8.1.1",
+    "inquirer-prompt-suggest": "^0.1.0"
   }
 }
