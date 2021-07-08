@@ -66,7 +66,7 @@ const questions = [
 
 //Function that writes README file
 const writeToFile = (answers) =>
-        `## ${answers.title}
+        `# ${answers.title}
 
 ![License: ${answers.license}](https://img.shields.io/badge/License-${answers.license}-green.svg)
 
@@ -93,7 +93,7 @@ const writeToFile = (answers) =>
 ## Questions
 
 My GitHub username is ${answers.gitHub}
-Here is a link to my [GitHub](#https://github.com/${answers.gitHub}) 
+Here is a link to my [GitHub](https://github.com/${answers.gitHub}) 
 
 If you have an questions feel free to send me an email at 
     ${answers.email}
