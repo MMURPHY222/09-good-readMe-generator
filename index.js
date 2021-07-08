@@ -69,6 +69,9 @@ const questions = [
 // TODO: Create a function to write README file
 const writeToFile = (answers) =>
         `## ${answers.title}
+
+![License: ${answers.license}](https://img.shields.io/badge/License-${answers.license}-green.svg)
+
 ## Description
    ${answers.description}
 ## Table of Contents
@@ -80,17 +83,22 @@ const writeToFile = (answers) =>
 - [Questions](#questions)
 
 ## Installation
+        ${answers.dependency}
 ## Usage
+        ${answers.use}
 ## License
+        ${answers.license}
 ## Contributing
+        ${answers.contributing}
 ## Tests
+        ${answers.test}
 ## Questions
 
-    Here is a link to my GitHub profile 
-        https://github.com/${answers.gitHub}
+My GitHub username is ${answers.gitHub}
+Here is a link to my [GitHub](#https://github.com/${answers.gitHub}) 
 
-    If you have an questions feel free to send me an email at 
-        ${answers.email}
+If you have an questions feel free to send me an email at 
+    ${answers.email}
      `;
 
 
