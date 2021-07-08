@@ -1,11 +1,10 @@
-
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
+inquirer.registerPrompt('suggest', require('inquirer-prompt-suggest'));
 
 // const markDown = require("./utils/generateMarkdown");
 
-inquirer.registerPrompt('suggest', require('inquirer-prompt-suggest'));
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -73,6 +72,13 @@ const writeToFile = (answers) =>
 ## Description
    ${answers.description}
 ## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
 ## Installation
 ## Usage
 ## License
