@@ -39,6 +39,7 @@ It functions by passing the array questions into the prompt and then sets the fu
 ```
 ## Link to video
 
+https://drive.google.com/file/d/1tiCYNY2-jplmzZHvyzaYASynOsxLGnNO/view
 ## Screenshots
 
 Here are screenshots of the terminal view as input is received 
