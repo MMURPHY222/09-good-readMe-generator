@@ -37,6 +37,21 @@ function init() {
 ```md
 It functions by passing the array questions into the prompt and then sets the function to a const to allow it to be passed into fs.writeToFile. The writeToFile function is a one line function of a large string containing all of the README.md and markdown syntax.
 ```
+```md
+The writeToFile function is where the functionality of the table of contents is added. 
+```
+```javascript
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+```
+
+```md
+It appears like this in the string and this allows users to click and be taken to that section of the page. 
+```
 ## Link to video
 
 https://drive.google.com/file/d/1tiCYNY2-jplmzZHvyzaYASynOsxLGnNO/view
